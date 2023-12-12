@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.arriba{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+}
+
+.canasta-interior-div-header{
+
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+}
+
+.barra-de-busqueda{
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
+}
+
+nav{
+    grid-column: 5 / 6;
+    grid-row: 1 / 1;
+
+}
+
