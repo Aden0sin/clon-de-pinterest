@@ -12,16 +12,14 @@
     grid-column: 1 / 2;
     grid-row: 1 / 1;
 
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 1;
+
 }
 
 .canasta-interior-div-header{
 
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .barra-de-busqueda{
@@ -33,5 +31,11 @@ nav{
     grid-column: 5 / 6;
     grid-row: 1 / 1;
 
+}
+
+.canasta-interior-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr
 }
 
