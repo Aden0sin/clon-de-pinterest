@@ -4,15 +4,14 @@ body{
     grid-template-rows: auto;
 }
 
-.pin{
 
-}
 
 .canasta-de-elementos-del-pin{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
     position: relative;
+    height: 100%;
     
 }
 
@@ -57,9 +56,4 @@ body{
 .boton-compartir{
     grid-row: 3 / 4;
     grid-column: 3 / 4;
-}
-
-.boton-tres-puntos{
-    grid-row: 3 / 4;
-    grid-column: 4 / 5
 }
